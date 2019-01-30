@@ -1,0 +1,40 @@
+.header{
+    display:flex
+}
+body{
+    background-image: url('../images/image.jpg');
+    background-size: cover;
+    font-family: Helvetica
+}
+
+#logo{
+    width: 250px;
+    height: 100px;
+}
+.nav{
+    float:right;
+}
+nav li ul a{
+    font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #3B3B3B;
+}
+.main {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    font-size: 100px
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: ivory;
+    color: orchid;
+    text-align: center;
+  }
