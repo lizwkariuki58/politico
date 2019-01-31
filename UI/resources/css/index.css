@@ -4,6 +4,7 @@
 body{
     background-image: url('../images/image.jpg');
     background-size: cover;
+    opacity: 0.4;
     font-family: Helvetica
 }
 
@@ -18,7 +19,7 @@ nav li ul a{
     font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1.3em;
 	font-weight: 400;
-	color: #3B3B3B;
+	color: orchid;
 }
 .main {
     text-align: center;
@@ -28,6 +29,14 @@ nav li ul a{
     margin-right: auto;
     width: 8em;
     font-size: 100px
+}
+
+.vote {
+    color: orchid;
+    text-shadow: #343a40 2px 2px;
+    min-width: 100%;
+    min-height: 12em;
+    position: relative;
 }
 .footer {
     position: fixed;
