@@ -1,16 +1,13 @@
 a{
-<<<<<<< HEAD
     text-decoration: none;
 }
 
 li{
     list-style-type: none;
-=======
     text-decoration: none
 }
 li{
     list-style-type:none
->>>>>>> ft-user-sign-up-163533796
 }
 .header{
     display:flex
@@ -78,6 +75,12 @@ form {
     min-width: 100%;
     min-height: 12em;
     position: relative;
+}
+
+
+#countdown, #time{
+    font-size: 60px;
+    color:rgb(90, 82, 110)
 }
 .footer {
     position: fixed;
