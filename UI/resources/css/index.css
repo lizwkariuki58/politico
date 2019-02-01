@@ -1,9 +1,16 @@
 a{
+<<<<<<< HEAD
     text-decoration: none;
 }
 
 li{
     list-style-type: none;
+=======
+    text-decoration: none
+}
+li{
+    list-style-type:none
+>>>>>>> ft-user-sign-up-163533796
 }
 .header{
     display:flex
@@ -42,10 +49,29 @@ form {
     margin: 20px auto;
     width: 300px;
     padding: 30px 25px;
+<<<<<<< HEAD
+=======
+    background: grey;
+    border: 1px solid #c4c4c4;
+  }
+/*.login-form {
+    margin: -28px -25px 25px;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #ADADAD;
+    text-align:center;
+>>>>>>> ft-user-sign-up-163533796
     background: #f7f7f7;
     border: 1px solid #c4c4c4;
   }
+<<<<<<< HEAD
 
+=======
+*/
+  
+>>>>>>> ft-user-sign-up-163533796
 #vote-now{
     color:rgb(90, 82, 110);
     text-shadow: #343a40 2px 2px;
