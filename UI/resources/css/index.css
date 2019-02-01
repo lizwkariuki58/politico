@@ -1,3 +1,9 @@
+a{
+    text-decoration: none
+}
+li{
+    list-style-type:none
+}
 .header{
     display:flex
 }
@@ -31,14 +37,14 @@ nav li ul a{
     font-size: 100px
 }
 
-.login-form {
+form {
     margin: 20px auto;
     width: 300px;
     padding: 30px 25px;
     background: grey;
     border: 1px solid #c4c4c4;
   }
-.login-form {
+/*.login-form {
     margin: -28px -25px 25px;
     padding: 15px 25px;
     line-height: 30px;
@@ -49,7 +55,7 @@ nav li ul a{
     background: #f7f7f7;
    
   }
-
+*/
   
 #vote-now{
     color:rgb(90, 82, 110);
