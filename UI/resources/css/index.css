@@ -5,7 +5,6 @@ body{
     background-image: url('../images/image.jpg');
     background-size: cover;
     font-family: Helvetica;
-    opacity:0.5;
 }
 
 #logo{
@@ -19,9 +18,10 @@ nav li ul a{
     font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1.3em;
 	font-weight: 400;
-	color: orchid;
+	color: rgb (90,82,110);
 }
 .main {
+    opacity:o.5;
     text-align: center;
     vertical-align: middle;
     line-height: 90px; 
@@ -30,8 +30,29 @@ nav li ul a{
     width: 8em;
     font-size: 100px
 }
+
+.login-form {
+    margin: 20px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: grey;
+    border: 1px solid #c4c4c4;
+  }
+.login-form {
+    margin: -28px -25px 25px;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #ADADAD;
+    text-align:center;
+    background: #f7f7f7;
+   
+  }
+
+  
 #vote-now{
-    color:orchid;
+    color:rgb(90, 82, 110);
     text-shadow: #343a40 2px 2px;
     min-width: 100%;
     min-height: 12em;
@@ -43,6 +64,6 @@ nav li ul a{
     bottom: 0;
     width: 100%;
     background-color: ivory;
-    color: orchid;
+    color: rgb(90,82,110);
     text-align: center;
   }
